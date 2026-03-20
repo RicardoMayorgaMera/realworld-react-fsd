@@ -1,18 +1,5 @@
 /**
- * ArticlesFeed UI Component.
- */
-import React from 'react';
-
-export default function ArticlesFeedUI() {
-  return (
-    <div className='articles-feed'>
-      <div className='article-card'>Article Preview Card</div>
-    </div>
-  );
-}
-
-/**
- * ArticlesFeed Component.
+ * ArticlesFeed component.
  */
 import React from 'react';
 import { TransitionUtils } from '../../utils/transition-utils';
