@@ -1,0 +1,16 @@
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 24px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .social-links li {
+    margin-right: 12px;
+  }
+}
